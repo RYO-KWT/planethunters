@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Planet Hunters</title>
+  <meta name="description" content="奪われた故郷の星を取り戻せ、壮大なSFファンタジー">
+  <meta name="robots" content="noindex">
+  <meta name="format-detection" content="telephone=no, email=no, address=no">
+
+  <!-- favicon -->
+  <link rel="icon" href="favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:title" content="Planet Hunters">
+  <meta property="og:description" content="奪われた故郷の星を取り戻せ、壮大なSFファンタジー">
+  <meta property="og:image" content="">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="">
+  <meta property="twitter:title" content="Planet Hunters">
+  <meta property="twitter:description" content="奪われた故郷の星を取り戻せ、壮大なSFファンタジー">
+  <meta property="twitter:image" content="">
+
+  <!-- css -->
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100..900&family=Noto+Sans+JP:wght@100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- js -->
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v21.0"></script>
+
+  <div class="l-loading js-l-loading">
+    <div class="anim-loading">
+      <span class="anim-loading__spinner"></span>
+      <span class="anim-loading__text">Now loading...</span>
+    </div>
+  </div>
+
+  <div class="l-bg-parallax">
+    <video class="l-bg-parallax__video" autoplay loop muted playsinline>
+      <source src="video/bg_movie.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <header class="header">
+    <div class="header__inner">
+      <h1 class="header__logo">
+        <a href="index.html" class="header__logo-link">
+          <img src="images/logo_header.svg" alt="" width="172" height="21">
+        </a>
+      </h1>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#story" class="nav__link">story</a>
+          </li>
+          <li class="nav__item">
+            <a href="#trailer" class="nav__link">trailer</a>
+          </li>
+          <li class="nav__item nav__button">
+            <a href="#" class="c-button c-button--small">play now</a>
+          </li>
+        </ul>
+        <button type="button" class="audio__button js-audio__button">
+          <span class="audio__text js-audio__text">sound off</span>
+          <div class="audio__icon js-audio__icon">
+            <svg width="15" height="16" viewBox="0 0 15 16" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0 5.92674L0 9.59596C0 10.1005 0.375 10.5133 0.833333 10.5133L3.33333 10.5133L6.075 13.5312C6.6 14.1091 7.5 13.6963 7.5 12.8799L7.5 2.63361C7.5 1.8172 6.6 1.40442 6.075 1.98232L3.33333 5.00943L0.833333 5.00943C0.375 5.00943 0 5.42222 0 5.92674ZM11.25 7.76135C11.25 6.13772 10.4 4.74341 9.16667 4.0646L9.16667 11.4489C10.4 10.7793 11.25 9.38498 11.25 7.76135ZM9.16667 0.835687V1.01915C9.16667 1.36772 9.375 1.67044 9.66667 1.79886C11.8167 2.74368 13.3333 5.06447 13.3333 7.76135C13.3333 10.4582 11.8167 12.779 9.66667 13.7238C9.36667 13.8523 9.16667 14.155 9.16667 14.5035V14.687C9.16667 15.2649 9.69167 15.6685 10.175 15.4667C13 14.2834 15 11.2838 15 7.76135C15 4.23889 13 1.2393 10.175 0.0559763C9.69167 -0.155004 9.16667 0.257784 9.16667 0.835687Z" />
+            </svg>
+          </div>
+        </button>
+        <audio class="audio js-audio" loop>
+          <source src="audio/cinematic-melody-main-9785.mp3" type="audio/mp3">
+        </audio>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="mv">
+      <div class="l-container">
+        <div class="mv__inner">
+          <div class="mv__desc">
+            <p class="mv__label">vr game</p>
+            <h2 class="mv__title">Planet<br>Hunters</h2>
+            <h3 class="mv__sub-title">惑星を奪還せよ</h3>
+            <div class="mv__button"><a href="#" class="c-button c-button--expand">play now</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="mv__scroll">
+        <div class="anim-scroll">
+          <span class="anim-scroll__text">Scroll</span>
+        </div>
+      </div>
+      <div class="mv__news">
+        <div class="anim-news-ticker">
+          <ul class="anim-news-ticker__list">
+            <li class="anim-news-ticker__item">
+              <p class="anim-news-ticker__text"><time datetime="2024-11-30"
+                  class="anim-news-ticker__date">2024.11.30</time>バージョン5.6リリース：アバター・アイテム大量発生！</p>
+            </li>
+            <li class="anim-news-ticker__item">
+              <p class="anim-news-ticker__text"><time datetime="2024-10-16"
+                  class="anim-news-ticker__date">20224.10.16</time>バグを修正しました。</p>
+            </li>
+            <li class="anim-news-ticker__item">
+              <p class="anim-news-ticker__text"><time datetime="2024-09-26"
+                  class="anim-news-ticker__date">2024.09.26</time>期間限定アイテム放出！</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <article>
+      <div class="l-bg-line l-bg-line--accent l-bg-line--top"></div>
+      <section id="story" class="story">
+        <div class="l-container">
+          <div class="story__inner">
+            <ul class="story__list">
+              <li class="story__item">
+                <div class="story__desc">
+                  <h2 class="c-heading-lv2">story</h2>
+                  <div class="story__title">
+                    <h3 class="c-heading-lv3">奪われた故郷の星を取り戻せ<br>壮大なSFファンタジー</h3>
+                  </div>
+                  <p class="story__text">
+                    銀河歴222年、惑星ネコチャンは、ボスネコ将軍の率いる軍の反乱により完全に制圧された。将軍の側近マンチカンは軍政府に従わない人間を辺境の星ニャゴーへ強制的に追放。食料や資源の乏しいニャゴーでは多くの難民が発生し飢餓に苦しんでいた。ニャゴーのスラム街で育った孤児の姉弟がいた。姉のミケと弟のタマは母親をボスネコ将軍に殺された事実を知る。母の復讐のため、そして故郷の惑星ネコチャンを奪還すべく、ミケとタマはいま行動に出る！
+                  </p>
+                </div>
+                <figure class="story__image">
+                  <img src="images/image_story_01.jpg" alt="目の周りを黒く染めた女性2人" width="860" height="1000" loading="lazy">
+                </figure>
+              </li>
+
+              <li class="story__item">
+                <div class="story__desc">
+                  <div class="story__title">
+                    <h3 class="c-heading-lv3">隠された陰謀を暴け<br>衝撃的な事実に驚愕</h3>
+                  </div>
+                  <p class="story__text">
+                    ミケとタマはネコジャラシ作戦により軍政府の最新鋭の小型船チュールを奪うことに成功。チュールのハイテンションワープ星間航行により惑星ネコチャンへあとわずか３時間で到着という時、小惑星帯アビシニアンで謎の救難信号を受信する。意外にも信号の発信源はボスネコ将軍だった。彼は今にも絶えそうなかすれた声で「私はおまえたちミケとタマの父親なのだ」と語る。その瞬間、ミケとタマの育ての親同然で仲間のはずのホワイトオッドアイがタマの背中を刀で切り裂いたのだった......
+                  </p>
+                </div>
+                <figure class="story__image">
+                  <img src="images/image_story_02.jpg" alt="コンピュータを操作している女性" width="860" height="1000" loading="lazy">
+                </figure>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="l-bg-line l-bg-line--accent l-bg-line--bottom"></div>
+
+      <section class="cta">
+        <div class="l-container">
+          <div class="cta__inner">
+            <h2 class="cta__title">are you ready to fight?</h2>
+            <div class="cta__button"><a href="#" class="c-button c-button--expand">play now</a></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="l-bg-line l-bg-line--top"></div>
+      <section id="trailer" class="trailer">
+        <div class="l-container">
+          <h2 class="c-heading-lv2 c-heading-lv2--accent">trailer</h2>
+          <div class="trailer__inner">
+            <div class="trailer__video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/UBSGpEpWE_I?si=Wwhx2dPz1BJ12dtV"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="l-bg-line l-bg-line--bottom"></div>
+
+      <section class="cta">
+        <div class="l-container">
+          <div class="cta__inner">
+            <h2 class="cta__title">are you ready to fight?</h2>
+            <div class="cta__button"><a href="#" class="c-button c-button--expand">play now</a></div>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <div class="l-bg-line l-bg-line--accent l-bg-line--top"></div>
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__sns">
+        <div class="footer__facebook">
+          <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width=""
+            data-layout="button_count" data-action="like" data-size="large" data-share="true">
+          </div>
+        </div>
+        <div class="footer__x">
+          <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false"
+            data-size="large">Tweet</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <div class="footer__line">
+          <div class="line-it-button" data-lang="ja" data-type="share-b" data-env="REAL"
+            data-url="https://developers.line.biz/ja/docs/line-social-plugins/install-guide/using-line-share-buttons/"
+            data-color="default" data-size="small" data-count="false" data-ver="3" style="display: none;"></div>
+          <script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async"
+            defer="defer"></script>
+        </div>
+      </div>
+      <small class="footer__copy-light">&copy;Necopon games</small>
+    </div>
+  </footer>
+  <div class="l-sp-button js-l-sp-button">
+    <a href="#" class="c-button c-button--large">play now</a>
+  </div>
+</body>
+
+</html>
